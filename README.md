@@ -3,7 +3,7 @@
 ![gettext](https://github.com/user-attachments/assets/48785572-eccf-46ee-8806-eadedd64c1ef)
 
 
-A Chrome extension to get the text of the current webpage article
+Chrome extension for article extraction
  
 
 ## Installation 
@@ -19,22 +19,22 @@ cd gettext
 - install and activate venv
 
 ```shell
-python3.10 -m venv venv
+gettext$ python3.10 -m venv venv
 ```
 
 ```shell
-source venv/bin/activate
+gettext$ source venv/bin/activate
 
 ```
 - Install requirements
 ```shell
-(venv) gettext/ pip install -r requirements.txt
+(venv) gettext$ pip install -r requirements.txt
 ```
 
 - Run app
 
 ```shell
-python main.py
+(venv) gettext$ python main.py
 ```
 
 
