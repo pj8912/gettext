@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "gettext",
+    "version": "1.0",
+    "description": "Condense Web Articles into Plain Text",
+    "action": {
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+   "host_permissions": [
+        "http://localhost:5000/*"
+    ],
+
+   "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["style.css"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
