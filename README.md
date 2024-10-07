@@ -1,4 +1,8 @@
 # gettext
+
+![gettext](https://github.com/user-attachments/assets/48785572-eccf-46ee-8806-eadedd64c1ef)
+
+
 A Chrome extension to get the text of the current webpage article
  
 
@@ -36,9 +40,15 @@ python main.py
 
 ## Configuration
 
-
 ### Load extension
+
+
+https://github.com/user-attachments/assets/9c710aed-f16d-43be-9273-6e68448af538
 
 
 
 ## Usage 
+
+
+https://github.com/user-attachments/assets/e36d81d8-c03b-4383-8fe3-85e7f17c9974
+
